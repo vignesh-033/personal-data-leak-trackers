@@ -1,0 +1,9 @@
+{
+  "name": "personal-data-leak-tracker",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.js", "dev": "node --watch server.js" },
+  "dependencies": { "dotenv": "^16.4.7", "express": "^5.1.0", "helmet": "^8.1.0" },
+  "engines": { "node": ">=20" }
+}
